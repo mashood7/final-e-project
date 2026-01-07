@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirror Palace | Premium Glass Decor</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MirrorPalace</div>
+        <nav>
+            <ul>
+                <li><a href="#drawing-section">Drawing/Living</a></li>
+                <li><a href="#bathroom-section">Bathroom</a></li>
+                <li><a href="#dressing-section">Dressing</a></li>
+                <li><a href="#bedroom-section">Bedroom</a></li>
+                <li><a href="#form-section">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+         <section class="hero">
+        <div class="hero-text">
+            <h1>Reflect Your Style</h1>
+            <p>Premium quality mirrors for modern homes. Design that shines.</p>
+            <a href="#" class="cta-btn">Shop Collection</a>
+        </div>
+    </section>
+        
+        <section id="drawing-section">
+            <h2 class="section-title">Drawing & Living Room Mirrors</h2>
+            <div class="grid">
+                <div class="card" onclick="openPrice('Drawing Mirror Deluxe', '₹5,500')">
+                    <img src="pexels-rdne-8580762.jpg" alt="Mirror">
+                    <h3>$ 199.99</h3>
+                </div>
+                <div class="card" onclick="openPrice('Drawing Mirror Premium', '₹7,200')">
+                    <img src="pexels-cottonbro-3585020.jpg" alt="Mirror">
+                    <h3>$ 255</h3>
+                </div>
+                <div class="card" onclick="openPrice('Living Frame Art', '₹4,800')">
+                    <img src="pexels-rdne-8580762.jpg" alt="Mirror">
+                    <h3>$ 200</h3>
+                </div>
+                <div class="card" onclick="openPrice('Royal Living Mirror', '₹12,000')">
+                    <img src="pexels-yankrukov-5794049.jpg" alt="Mirror">
+                    <h3>$ 299</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="bathroom-section">
+            <h2 class="section-title">Bathroom Mirrors</h2>
+            <div class="grid">
+                <div class="card" onclick="openPrice('Anti-Fog Bath Mirror', '₹2,500')">
+                    <img src="pexels-julianemonarifotografia-28542168.jpg" alt="Mirror">
+                    <h3> $ 250</h3>
+                </div>
+                <div class="card" onclick="openPrice('LED Bathroom Mirror', '₹8,500')">
+                    <img src="pexels-cottonbro-6466231.jpg" alt="Mirror">
+                    <h3>$ 199</h3>
+                </div>
+                <div class="card" onclick="openPrice('Oval Bath Design', '₹3,200')">
+                    <img src="pexels-liuuu-_61-2383408-34992780.jpg" alt="Mirror">
+                    <h3> $ 244</h3>
+                </div>
+                <div class="card" onclick="openPrice('Modern Square Mirror', '₹2,100')">
+                    <img src="pexels-karola-g-4202326.jpg" alt="Mirror">
+                    <h3>$ 88.00</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="dressing-section">
+            <h2 class="section-title">Dressing Room Mirrors</h2>
+            <div class="grid">
+                <div class="card" onclick="openPrice('Hollywood Vanity', '₹15,000')">
+                    <img src="pexels-sidneimaia-3489131.jpg" alt="Mirror">
+                    <h3>$ 250</h3>
+                </div>
+                <div class="card" onclick="openPrice('Full Length Dressing', '₹9,000')">
+                    <img src="pexels-heyho-6970071.jpg" alt="Mirror">
+                    <h3>$ 300</h3>
+                </div>
+                <div class="card" onclick="openPrice('Wall Mounted Vanity', '₹6,500')">
+                    <img src="pexels-n-voitkevich-4641681.jpg" alt="Mirror">
+                    <h3> $ 29.9</h3>
+                </div>
+                <div class="card" onclick="openPrice('Minimalist Dressing', '₹5,000')">
+                    <img src="pexels-krzysztof-biernat-406313862-14917949.jpg" alt="Mirror">
+                    <h3>89.9</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="bedroom-section">
+            <h2 class="section-title">Bedroom Mirrors</h2>
+            <div class="grid">
+                <div class="card" onclick="openPrice('Cozy Bedroom Mirror', '₹4,000')">
+                    <img src="pexels-kseniachernaya-3951741.jpg" alt="Mirror">
+                    <h3> $ 150</h3>
+                </div>
+                <div class="card" onclick="openPrice('Elegant Arched Mirror', '₹11,000')">
+                    <img src="pexels-kseniachernaya-4740487.jpg" alt="Mirror">
+                    <h3> $ 249</h3>
+                </div>
+                <div class="card" onclick="openPrice('Standing Mirror', '₹7,800')">
+                    <img src="pexels-andreaedavis-10658143 (1).jpg" alt="Mirror">
+                    <h3>$ 59.9</h3>
+                </div>
+                <div class="card" onclick="openPrice('Circular Wall Mirror', '₹3,500')">
+                    <img src="pexels-leeloothefirst-8210480 (1).jpg " alt="Mirror">
+                    <h3>$ 299</h3>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="form-section">
+            <h2 class="section-title">Contact for Booking</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select id="selected-mirror">
+                    <option value="">Select Category</option>
+                    <option value="drawing">Drawing Room</option>
+                    <option value="bathroom">Bathroom</option>
+                    <option value="dressing">Dressing</option>
+                    <option value="bedroom">Bedroom</option>
+                </select>
+                <textarea placeholder="Message..."></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+   <footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-box">
+            <h3>MIRROR<span>PLACE</span></h3>
+            <p>Premium quality mirrors that reflect elegance and luxury in every corner of your home.</p>
+            
+            <div class="social-icons">
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Custom Design</a></li>
+                <li><a href="#">Care Tips</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h4>Get In Touch</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Mirror Market, Karachi, PK</p>
+            <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+            <p><i class="fas fa-envelope"></i> info@crystalclear.com</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Crystal Clear Mirrors | All Rights Reserved</p>
+    </div>
+</footer>
+
+   
+</body>
+</html>
